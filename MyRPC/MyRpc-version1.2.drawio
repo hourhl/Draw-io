@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="KDZaYFzsoEYa3pZ85hy7">
-    <mxGraphModel dx="2442" dy="2026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="x4WT5agnDmlDmy9kd1mR-13" value="服务注册和保存(UserServiceImpl)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="136.5" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="x4WT5agnDmlDmy9kd1mR-14" value="实例化proxy(serverIP, port)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4WT5agnDmlDmy9kd1mR-14" value="实例化proxy(serverIP, Port)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="575" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="x4WT5agnDmlDmy9kd1mR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x4WT5agnDmlDmy9kd1mR-16" target="x4WT5agnDmlDmy9kd1mR-18">
@@ -162,10 +162,10 @@
         <mxCell id="x4WT5agnDmlDmy9kd1mR-43" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x4WT5agnDmlDmy9kd1mR-44" value="Address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4WT5agnDmlDmy9kd1mR-44" value="ServerIP:Port" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x4WT5agnDmlDmy9kd1mR-46" value="服务发现（&lt;div&gt;serverIP， port）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4WT5agnDmlDmy9kd1mR-46" value="服务发现（&lt;div&gt;serverIP， Port）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="572.5" y="300" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4WT5agnDmlDmy9kd1mR-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x4WT5agnDmlDmy9kd1mR-46">
