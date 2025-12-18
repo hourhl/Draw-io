@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="09XS701ov1DDyluY0Lh6-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="220" width="941.04" x="308.96" y="470" as="geometry" />
+          <mxGeometry height="230" width="941.04" x="308.96" y="460" as="geometry" />
         </mxCell>
         <mxCell id="09XS701ov1DDyluY0Lh6-32" edge="1" parent="1" source="09XS701ov1DDyluY0Lh6-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -38,7 +38,7 @@
           <mxGeometry height="100" width="110" x="1520" y="220" as="geometry" />
         </mxCell>
         <mxCell id="09XS701ov1DDyluY0Lh6-46" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;1. 软件图谱的构建&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="710" y="480" as="geometry" />
+          <mxGeometry height="30" width="230" x="708.96" y="480" as="geometry" />
         </mxCell>
         <mxCell id="09XS701ov1DDyluY0Lh6-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="240" width="1130" x="310" y="150" as="geometry" />
