@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U8C42bmtxW_Eqizuzh1A-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入二进制程序" vertex="1">
+        <mxCell id="U8C42bmtxW_Eqizuzh1A-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入：二进制程序" vertex="1">
           <mxGeometry height="40" width="130" x="147.5" y="100" as="geometry" />
         </mxCell>
         <mxCell id="zt9ZTVKTegzX89YtFmCL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
@@ -120,6 +120,61 @@
         </mxCell>
         <mxCell id="bGNSBWIwnPTTNQ98DORn-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="阶段2：Joern构建CPG" vertex="1">
           <mxGeometry height="30" width="140" x="610" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="选择解析前端" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-29" edge="1" parent="1" source="bGNSBWIwnPTTNQ98DORn-10" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bGNSBWIwnPTTNQ98DORn-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-30" edge="1" parent="1" source="bGNSBWIwnPTTNQ98DORn-9" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="800" />
+              <mxPoint x="460" y="800" />
+            </Array>
+            <mxPoint x="390" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="词法/语法分析&lt;div&gt;AST生成&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="多层次分析Pass&lt;div&gt;CFG + DFG + CG等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="持久化CPG&lt;div&gt;workspace/cpg.bin&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输出：代码属性图" vertex="1">
+          <mxGeometry height="40" width="130" x="570" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-36" edge="1" parent="1" source="bGNSBWIwnPTTNQ98DORn-28" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bGNSBWIwnPTTNQ98DORn-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-37" edge="1" parent="1" source="bGNSBWIwnPTTNQ98DORn-31" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="bGNSBWIwnPTTNQ98DORn-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-38" edge="1" parent="1" source="bGNSBWIwnPTTNQ98DORn-32" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bGNSBWIwnPTTNQ98DORn-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-39" edge="1" parent="1" source="bGNSBWIwnPTTNQ98DORn-33" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bGNSBWIwnPTTNQ98DORn-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
