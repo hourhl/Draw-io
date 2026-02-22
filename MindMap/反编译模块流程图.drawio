@@ -5,10 +5,37 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="U8C42bmtxW_Eqizuzh1A-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入二进制程序" vertex="1">
-          <mxGeometry height="40" width="130" x="130" y="50" as="geometry" />
+          <mxGeometry height="40" width="130" x="150" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="zt9ZTVKTegzX89YtFmCL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="330" width="370" x="30" y="160" as="geometry" />
+        <mxCell id="zt9ZTVKTegzX89YtFmCL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="750" width="390" x="30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="IDA Pro加载程序&lt;div&gt;识别文件格式&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="165" x="130" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="阶段1：IDA Pro反编译" vertex="1">
+          <mxGeometry height="30" width="140" x="145" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否支持&lt;div&gt;Hex-Rays&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="遍历函数列表&lt;div&gt;idautils.Functions()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="调用Hex-Rays&lt;div&gt;生成伪代码&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="反编译&lt;div&gt;是否成功?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="60" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="保存伪代码文件&lt;div&gt;func_&amp;lt;addr&amp;gt;.c&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成函数元数据func_list.json" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="bGNSBWIwnPTTNQ98DORn-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="记录失败信息" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
