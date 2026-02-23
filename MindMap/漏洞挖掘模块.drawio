@@ -4,6 +4,81 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入：EnCPG" vertex="1">
+          <mxGeometry height="40" width="120" x="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="440" width="300" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="阶段1：插件初始化" vertex="1">
+          <mxGeometry height="30" width="110" x="210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="加载AutoDetect插件" vertex="1">
+          <mxGeometry height="40" width="155" x="112.5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="读取配置&lt;div&gt;（确认输出路径）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="155" x="112.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="查询已覆盖函数&lt;div&gt;(BeenTraced = true&amp;nbsp;&lt;/div&gt;&lt;div&gt;或被TRACE_CALL边连接)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="155" x="112.5" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="构建分析范围&lt;div&gt;M_traced集合&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="155" x="112.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="M_traced为空" vertex="1">
+          <mxGeometry height="80" width="130" x="120" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="终止" vertex="1">
+          <mxGeometry height="30" width="120" x="125" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="210" width="580" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="阶段2：漏洞检测" vertex="1">
+          <mxGeometry height="20" width="100" x="414" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="170" width="460" x="420" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="阶段3：结果聚合" vertex="1">
+          <mxGeometry height="30" width="110" x="430" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输出：Vul.txt" vertex="1">
+          <mxGeometry height="35" width="120" x="910" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="空指针解引用检测&lt;div&gt;detectNPD(M_traced)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="410" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UAF漏洞检测&lt;div&gt;detectUAF(M_traced)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="命令执行检测&lt;div&gt;detectCmdExec(M_traced)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="780" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="缓冲区溢出检测detectBufferOverflow(M_traced)" vertex="1">
+          <mxGeometry height="60" width="180" x="780" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="整数溢出检测&lt;div&gt;detectIntegerOverflow(M_traced)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="182" x="570" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Off-by-One检测&lt;div&gt;detectOffByOne(M_traced)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="410" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="聚合检测结果&lt;div&gt;按漏洞类型分类&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="417.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否发现漏洞" vertex="1">
+          <mxGeometry height="80" width="100" x="440" y="407.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成漏洞报告&lt;div&gt;(类型/函数名/行号/代码)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="720" y="417.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-BkMRDCeaM0JL5pmsIw4-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="570" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
