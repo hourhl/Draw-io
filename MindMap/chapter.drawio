@@ -7,7 +7,7 @@
         <mxCell id="GJDtXjvwVbf144TPEDqj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第一章" vertex="1">
           <mxGeometry height="40" width="100" x="50" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="GJDtXjvwVbf144TPEDqj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="绪论（研究背景与意义）" vertex="1">
+        <mxCell id="GJDtXjvwVbf144TPEDqj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="绪论" vertex="1">
           <mxGeometry height="60" width="150" x="300" y="70" as="geometry" />
         </mxCell>
         <mxCell id="GJDtXjvwVbf144TPEDqj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第二章" vertex="1">
@@ -66,6 +66,18 @@
         </mxCell>
         <mxCell id="GJDtXjvwVbf144TPEDqj-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="漏洞挖掘模块" vertex="1">
           <mxGeometry height="40" width="120" x="380" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="GJDtXjvwVbf144TPEDqj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第五章" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="GJDtXjvwVbf144TPEDqj-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="实验结果与分析" vertex="1">
+          <mxGeometry height="50" width="270" x="240" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="GJDtXjvwVbf144TPEDqj-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第六章" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="GJDtXjvwVbf144TPEDqj-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="总结与展望" vertex="1">
+          <mxGeometry height="50" width="270" x="240" y="785" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
