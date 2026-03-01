@@ -136,6 +136,9 @@
             <mxPoint x="1010" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;六类漏洞：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;缓冲区溢出、&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;整数溢出、&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UAF、&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Off by One、&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;空指针解引用、&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;命令执行&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="235" x="600" y="430" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
