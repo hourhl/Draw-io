@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FefWlsCCkXW0old8PD6K-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="二进制程序" vertex="1">
-          <mxGeometry height="70" width="70" x="90" y="140" as="geometry" />
+          <mxGeometry height="70" width="70" x="40" y="250" as="geometry" />
         </mxCell>
         <mxCell id="FefWlsCCkXW0old8PD6K-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="170" x="220" y="110" as="geometry" />
@@ -21,6 +21,72 @@
         </mxCell>
         <mxCell id="FefWlsCCkXW0old8PD6K-10" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;" value="......" vertex="1">
           <mxGeometry height="60" width="50" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-1" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="280" as="sourcePoint" />
+            <mxPoint x="200" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AST" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CFG" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PDG" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-9" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;" value="" vertex="1">
+          <mxGeometry height="180" width="40" x="585" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CPG" vertex="1">
+          <mxGeometry height="80" width="120" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-11" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Trace采集系统" vertex="1">
+          <mxGeometry height="100" width="210" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Trace" vertex="1">
+          <mxGeometry height="90" width="140" x="460" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-13" parent="IgiMl-BLdeJbhJt_RIT6-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="函数调用集合" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-14" parent="IgiMl-BLdeJbhJt_RIT6-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="动态调用关系" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-16" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="300" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-19" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="190" as="sourcePoint" />
+            <mxPoint x="450" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-21" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="EnCPG" vertex="1">
+          <mxGeometry height="80" width="120" x="827" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-22" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="200" as="sourcePoint" />
+            <mxPoint x="820" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-23" edge="1" parent="1" source="IgiMl-BLdeJbhJt_RIT6-11" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgiMl-BLdeJbhJt_RIT6-24" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=23;endSize=13.77;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="390" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
