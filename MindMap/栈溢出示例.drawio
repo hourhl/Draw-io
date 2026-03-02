@@ -20,7 +20,7 @@
           <mxGeometry height="30" width="60" x="100" y="220" as="geometry" />
         </mxCell>
         <mxCell id="fQIV03rpsZb1h8BolR4u-25" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="超过32字节的恶意数据" vertex="1">
-          <mxGeometry height="80" width="160" x="590" y="160" as="geometry" />
+          <mxGeometry height="80" width="160" x="590" y="110" as="geometry" />
         </mxCell>
         <mxCell id="CUbHMb4peMZmh0Fc5w3U-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="330" width="270" x="240" y="70" as="geometry" />
@@ -54,8 +54,8 @@
         </mxCell>
         <mxCell id="CUbHMb4peMZmh0Fc5w3U-17" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="590" y="200" as="sourcePoint" />
-            <mxPoint x="520" y="200" as="targetPoint" />
+            <mxPoint x="590" y="160" as="sourcePoint" />
+            <mxPoint x="520" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CUbHMb4peMZmh0Fc5w3U-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="......" vertex="1">
@@ -63,6 +63,15 @@
         </mxCell>
         <mxCell id="CUbHMb4peMZmh0Fc5w3U-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="......" vertex="1">
           <mxGeometry height="30" width="60" x="345" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="CUbHMb4peMZmh0Fc5w3U-23" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="220" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUbHMb4peMZmh0Fc5w3U-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="恶意数据写入方向" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="265" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
