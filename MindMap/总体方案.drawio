@@ -201,6 +201,9 @@
             <mxPoint y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YQN5X01x9HHxO84t7OcA-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;研究内容四：基于EnCPG的二进制漏洞挖掘系统的设计实现与实验&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="980" y="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
