@@ -46,6 +46,24 @@
         <mxCell id="w99qoMCHd2PRNVlZLgjq-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;函数调用关系列表&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="150" x="510" y="290" as="geometry" />
         </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="320" x="720" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;模块三：CPG增强模块&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="790" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Joern自定义插件&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="120" x="740" y="257.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;EnCPG&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="120" x="900" y="257.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="130" width="333" x="707" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;模块四：漏洞挖掘模块&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="163" x="792" y="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
