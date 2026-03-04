@@ -22,14 +22,20 @@
         <mxCell id="QYlKjVo6-eYplFeimXWb-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;柳叶刀采集Trace&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="150" x="75" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="l8vF-9NrIGaWixbN-esT-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;call_trace.json&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="150" x="330" y="310" as="geometry" />
+        <mxCell id="l8vF-9NrIGaWixbN-esT-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="290" width="420" x="350" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="l8vF-9NrIGaWixbN-esT-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;func_list.json&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="150" x="330" y="380" as="geometry" />
+        <mxCell id="l8vF-9NrIGaWixbN-esT-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;函数元数据&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;binary.json&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="370" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="l8vF-9NrIGaWixbN-esT-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;函数元数据&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;binary.json&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="150" x="330" y="230" as="geometry" />
+        <mxCell id="l8vF-9NrIGaWixbN-esT-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;func_list.json&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="370" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="l8vF-9NrIGaWixbN-esT-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;call_trace.json&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="l8vF-9NrIGaWixbN-esT-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;阶段2：函数级信息提取&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="540" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
