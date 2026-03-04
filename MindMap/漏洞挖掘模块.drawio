@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="mUm1zY91SQwwnRY4WFcH">
-    <mxGraphModel dx="651" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry height="40" width="155" x="112.5" y="230" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;查询已覆盖函数&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;(BeenTraced = true&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;或被TRACE_CALL边连接)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="220" x="80" y="290" as="geometry" />
+          <mxGeometry height="70" width="220" x="80" y="300" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;构建分析范围&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;M_traced集合&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="180" x="100" y="390" as="geometry" />
@@ -32,13 +32,13 @@
           <mxGeometry height="30" width="120" x="130" y="569.5" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="210" width="580" x="390" y="100" as="geometry" />
+          <mxGeometry height="210" width="720" x="380" y="100" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;阶段2：漏洞检测&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="126" x="414" y="110" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="170" width="460" x="420" y="350" as="geometry" />
+          <mxGeometry height="170" width="480" x="400" y="350" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;阶段3：结果聚合&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="130" x="430" y="360" as="geometry" />
@@ -47,31 +47,31 @@
           <mxGeometry height="35" width="120" x="910" y="430" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;空指针解引用检测&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;detectNPD(M_traced)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="410" y="140" as="geometry" />
+          <mxGeometry height="60" width="160" x="410" y="140" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;UAF漏洞检测&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;detectUAF(M_traced)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="600" y="240" as="geometry" />
+          <mxGeometry height="60" width="190" x="630" y="240" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;命令执行检测&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;detectCmdExec(M_traced)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="780" y="140" as="geometry" />
+          <mxGeometry height="60" width="193" x="870" y="140" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;缓冲区溢出检测detectBufferOverflow(M_traced)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="780" y="240" as="geometry" />
+          <mxGeometry height="60" width="226.5" x="860" y="240" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;整数溢出检测&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;detectIntegerOverflow(M_traced)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="182" x="570" y="140" as="geometry" />
+          <mxGeometry height="60" width="230" x="600" y="140" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Off-by-One检测&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;detectOffByOne(M_traced)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="410" y="240" as="geometry" />
+          <mxGeometry height="60" width="190" x="390" y="240" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;聚合检测结果&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;按漏洞类型分类&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="570" y="417.5" as="geometry" />
+          <mxGeometry height="60" width="130" x="570" y="417.5" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;是否发现漏洞&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="100" x="435" y="407.5" as="geometry" />
+          <mxGeometry height="80" width="110" x="430" y="407.5" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;生成漏洞报告&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;(类型/函数名/行号/代码)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="720" y="417.5" as="geometry" />
+          <mxGeometry height="60" width="150" x="720" y="417.5" as="geometry" />
         </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-28" edge="1" parent="1" source="-BkMRDCeaM0JL5pmsIw4-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-BkMRDCeaM0JL5pmsIw4-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -131,12 +131,6 @@
             <mxPoint x="570" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-BkMRDCeaM0JL5pmsIw4-41" edge="1" parent="1" source="-BkMRDCeaM0JL5pmsIw4-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-BkMRDCeaM0JL5pmsIw4-22" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="520" y="400" as="sourcePoint" />
-            <mxPoint x="570" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-BkMRDCeaM0JL5pmsIw4-42" edge="1" parent="1" source="-BkMRDCeaM0JL5pmsIw4-22" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="-BkMRDCeaM0JL5pmsIw4-20" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="520" y="400" as="sourcePoint" />
@@ -192,6 +186,12 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="370" y="450" as="sourcePoint" />
             <mxPoint x="420" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze94-DvYTKwu7qX71rZ5-3" edge="1" parent="1" source="-BkMRDCeaM0JL5pmsIw4-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="350" as="sourcePoint" />
+            <mxPoint x="967" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
