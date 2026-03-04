@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ae-eX4nNVaIS1PryYCvd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;目标二进制程序&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="20" y="180" as="geometry" />
+          <mxGeometry height="40" width="120" y="180" as="geometry" />
         </mxCell>
         <mxCell id="ae-eX4nNVaIS1PryYCvd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="130" width="510" x="170" y="60" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry height="40" width="150" x="339" y="90" as="geometry" />
         </mxCell>
         <mxCell id="w99qoMCHd2PRNVlZLgjq-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IDA Pro反编译&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="102.5" as="geometry" />
+          <mxGeometry height="40" width="100" x="190" y="112.5" as="geometry" />
         </mxCell>
         <mxCell id="w99qoMCHd2PRNVlZLgjq-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CPG图&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="90" x="540" y="102.5" as="geometry" />
@@ -75,6 +75,25 @@
         </mxCell>
         <mxCell id="w99qoMCHd2PRNVlZLgjq-22" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=37;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;漏洞报告&lt;/font&gt;" vertex="1">
           <mxGeometry height="100" width="80" x="1100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-24" edge="1" parent="1" source="ae-eX4nNVaIS1PryYCvd-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="w99qoMCHd2PRNVlZLgjq-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="200" />
+              <mxPoint x="140" y="285" />
+            </Array>
+            <mxPoint x="150" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w99qoMCHd2PRNVlZLgjq-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w99qoMCHd2PRNVlZLgjq-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="133" />
+            </Array>
+            <mxPoint x="140" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
