@@ -74,7 +74,7 @@
           <mxGeometry height="60" width="120" x="1030" y="230" as="geometry" />
         </mxCell>
         <mxCell id="t6Zfoiqj1g2ShxmRFWBS-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;输出：EnCPG&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;保存到workspace&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1220" y="230" as="geometry" />
+          <mxGeometry height="60" width="140" x="1220" y="230" as="geometry" />
         </mxCell>
         <mxCell id="t6Zfoiqj1g2ShxmRFWBS-27" edge="1" parent="1" source="t6Zfoiqj1g2ShxmRFWBS-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t6Zfoiqj1g2ShxmRFWBS-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
